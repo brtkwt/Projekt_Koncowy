@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>CV Bartłomiej Witak</title>
+	<link rel="stylesheet" href="proj_k.css">
+</head>
+
+<body>
+	<script src="proj_k.js"></script>
+
+    <header>
+        <h1>CV Bartłomiej Witak</h1>
+		
+		<a href="#" class="btn_flaga" onclick="changeLanguage('pl')" >
+        <img src="pl.png" alt="Polski">
+		</a>
+		
+		<a href="#" class="btn_flaga" onclick="changeLanguage('en')">
+        <img src="gb.png" alt="English">
+		</a>
+		
+    </header>
+    <nav>
+        <a href="#about" class = "nav_about">O mnie</a>
+        <a href="#experience" class = "nav_exp">Doświadczenie</a>
+        <a href="#education" class = "nav_edu">Edukacja</a>
+        <a href="#skills" class = "nav_skills">Umiejętności</a>
+        <a href="#portfolio" class = "nav_portof">Portfolio</a>
+        <a href="#intrests" class = "nav_intre">Zainteresowania</a>
+        <a href="#contact" class = "nav_cont">Kontakt</a>
+    </nav>
+    <section id="about" class="cv-section">
+		<img src="zdjecie_cv.jpg" alt="" width="300" height="430">
+		<br><br>
+        <h2 class = "o_mnie">O mnie</h2>
+        
+		<p class="text_o_mnie">Jestem studentem 3 roku Informatyki na wydziale Zastosowań Matematyki i Informatyki SGGW w Warszawie.
+                    Na codzień jestem osobą aktywną fizycznie, która łączy pasję do sportu z zainteresowaniem informatyką.
+                    Dzięki temu dziwnemu połączeniu mogę czerpać inspirację i rozwijać się lepiej w obydwu tych dziedzinach.</p>
+		
+    </section>
+    <section id="experience" class="cv-section" >
+        <h2 class="experience">Doświadczenie</h2>
+		
+		<div class="experience-item">
+            <p class="title"><span class="st_3">Stanowisko 3</span></p>
+            <p class="date"><span class="dt_3">Lipiec 2022 - Styczeń 2023</span></p>
+            <p class="ot_3">Tutaj znajduje się opis stanowiska 3.</p>
+        </div>
+		
+		<div class="experience-item">
+            <p class="title"><span class="st_2">Stanowisko 2</span></p>
+            <p class="date"><span class="dt_2">Styczeń 2023 - Kwiecień 2023</span></p>
+            <p class="ot_2">Tutaj znajduje się opis stanowiska 2.</p>
+        </div>
+		
+		<div class="experience-item">
+            <p class="title"><span class="st_1">Projektant Stron WWW</span></p>
+            <p class="date"><span class="dt_1">Kwiecień 2023 - Obecnie</span></p>
+            <p class="ot_1">Tarvos Creation - WordPress</p>
+        </div>
+		
+    </section>
+    <section id="education" class="cv-section">
+        <h2 class="education">Edukacja</h2>
+		
+		<div class="education-item">
+            <p class="degree"><span class="se_1">Licem Adama Mickiewicza</span></p>
+            <p class="date"><span class="de_1">Wrzesień 2016 - Maj 2019</span></p>
+            <p class="oe_1">IX Licem Adama Mickiewicza Warszawa</p>
+        </div>
+		
+		<div class="education-item">
+            <p class="degree"><span class="se_2">Cybernetyka WAT</span></p>
+            <p class="date"><span class="de_2">Październik 2019 - Luty 2020</span></p>
+            <p class="oe_2">Studia Inżynierskie.</p>
+        </div>
+		
+        <div class="education-item">
+            <p class="degree"><span class="se_3">Informatyka SGGW</span></p>
+            <p class="date"><span class="de_3">Październik 2020 - Obecnie</span></p>
+            <p class="oe_3">Studia Inżynierskie.</p>
+        </div>
+   
+    </section>
+    <section id="skills" class="cv-section">
+        <h2 class="skills">Umiejętności</h2>
+        <ul>
+            <li class="skill">ASP .NET</li>
+            <li class="skill">C#</li>
+            <li class="skill">Html</li>
+			<li class="skill">Css</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill"><span class="ang">Angielski B2</span></li>
+            <li class="skill"><span class="pol">Polski rodzimy</span></li>
+        </ul>
+    </section>
+	
+	<section id="portfolio" class="cv-section">
+        <h2 class = "portfo">Moje portfolio</h2>
+        <div class="portfolio-list">
+			<a class = "link1" href="link_do_pobrania_1">Projekt 1</a><br>
+			<a class = "link2" href="link_do_pobrania_2">Projekt 2</a><br>
+			<a class = "link3" href="link_do_pobrania_3">Projekt 3</a><br>
+    </div>
+	
+	<br>
+	<a href="https://github.com/brtkwt" target="_blank" class="btn_gh">
+	<i class="fab fa-github"></i>
+	</a>
+	
+    </section>
+	
+	<section id="intrests" class="cv-section">
+        <h2 class="intres">Zainteresowania</h2>
+        <ul>
+            <li class="intrest"><span class="int1">Informatyka</span></li>
+            <li class="intrest"><span class="int2">Kino</span></li>
+            <li class="intrest">Sport</li>
+			<li class="intrest">Biznes</li>
+        </ul>
+    </section>
+	
+    <section id="contact" class="cv-section">
+        <h2 class="kon">Kontakt</h2>
+		<P>606 606 6066</p><br>
+		<P>brtkwt@gmail.com</p>
+        <a href="mailto:brtkwt@gmail.com" class="btn">Napisz do mnie!</a>
+		
+		<br><br>
+		<a href="https://www.facebook.com" target="_blank" class="btn_fb">
+		<i class="fab fa-facebook-f"></i>
+		</a>
+
+		<a href="https://www.instagram.com" target="_blank" class="btn_ig">
+		<i class="fab fa-instagram"></i>
+		</a>
+		
+		<a href="https://github.com/brtkwt" target="_blank" class="btn_gh">
+		<i class="fab fa-github"></i>
+		</a>
+
+    </section>
+    <footer>
+        <p class="stop">Strona stworzona przez Bartłomiej Witak.</p>
+    </footer>
+	
+</body>
+
+</html>

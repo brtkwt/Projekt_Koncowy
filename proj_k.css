@@ -1,0 +1,170 @@
+body {
+            font-family: Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f0f8ff;
+			padding: 5px;
+        }
+
+        section {
+            padding: 0px 20px;
+            text-align: center;
+			padding-top: 5px;
+			padding-bottom: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            header,
+            nav,
+            section,
+            footer {
+                padding: 20px 10px;
+            }
+        }
+
+        .cv-section {
+            background-color: #fff;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .cv-section .experience-item,
+        .cv-section .education-item {
+            display: inline-block;
+            text-align: left;
+            padding: 10px 25px;
+        }
+
+        .cv-section .experience-item .title,
+        .cv-section .education-item .degree {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .cv-section .experience-item .date,
+        .cv-section .education-item .date {
+            font-style: italic;
+            color: #555;
+        }
+
+		.skill {
+			background-color: #6cc644;
+            padding: 18px 22px;
+            border-radius: 40px;
+            margin-bottom: 10px;
+            display: inline-block;
+			margin-left: 3px;
+			font-weight: bold;
+        }
+		
+		.intrest {
+			background-color: #6e5494;
+			color: #fff;
+            padding: 18px 22px;
+            border-radius: 40px;
+            margin-bottom: 10px;
+            display: inline-block;
+			margin-left: 3px;
+			font-weight: bold;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        p {
+            line-height: 1.5;
+
+        }
+
+		.cv-section p {
+			max-width: 700px;
+			margin: 0 auto;
+		}
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #DB4437;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+			font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+		
+		.btn_fb{
+			background-color: #4267B2;
+            color: #fff;
+			padding: 15px 17px;
+            border-radius: 30px;
+            text-decoration: none;
+		}
+		
+		.btn_ig{
+			display: inline-block;
+			background-color: #E1306C;
+            color: #fff;
+			padding: 15px 17px;
+            border-radius: 30px;
+            text-decoration: none;
+			margin-left: 15px;
+		}
+		
+		.btn_gh{
+			display: inline-block;
+			background-color: #333;
+            color: #fff;
+			padding: 15px 17px;
+            border-radius: 30px;
+            text-decoration: none;
+			margin-left: 10px;
+		}
+		
+		.btn_flaga{
+			margin-left: 5px;
+		}
